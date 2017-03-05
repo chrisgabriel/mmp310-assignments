@@ -29,3 +29,4 @@ if(mainDiv.offsetHeight-122>=100 && mainDiv.offsetWidth-122>=100){
     }
     
 },false);
+
