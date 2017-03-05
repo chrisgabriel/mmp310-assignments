@@ -4,8 +4,8 @@ var enlargeButton = document.getElementById('enlarge-div');
 var shrinkButton = document.getElementById('shrink-div');
 var mainDiv = document.getElementsByTagName('div')[0];
 
-enlargeButton.addEventListener('click',function() {
 //Whenever enlargeButton is clicked increase size of mainDiv by 100 to length and width.
+enlargeButton.addEventListener('click',function() {
     //If, after the user clicks the Enlarge button, the box becomes larger than 500 × 500, an alert modal should notify the user that the box is too large, and then not increase the width and height of the box.
     
 if(mainDiv.offsetHeight<=500 && mainDiv.offsetWidth<=500){
